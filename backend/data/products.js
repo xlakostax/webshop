@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "Americana",
     image: "/images/americana.png",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: "2",
     name: "Hawaii",
     image: "/images/hawaii.png",
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "3",
     name: "Caesar",
     image: "/images/caesar.png",
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: "4",
     name: "Four Seasons",
     image: "/images/four-seasons.png",
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 6,
   },
   {
-    _id: "5",
     name: "Carbonara",
     image: "/images/carbonara.png",
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "6",
     name: "Margarita",
     image: "/images/margarita.png",
     description:
