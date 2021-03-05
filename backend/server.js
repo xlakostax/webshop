@@ -1,8 +1,10 @@
-// const express = require("express");
-import express from "express";
+import colors from "colors";
 
 // const dotenv = require("dotenv");
 import dotenv from "dotenv";
+
+// const express = require("express");
+import express from "express";
 
 // const products = require("./data/products")
 import products from "./data/products.js"
@@ -31,4 +33,4 @@ app.get("/api/products/:id", (req, res) => {
   res.json(product)
 })
 
-app.listen(PORT, console.log(`Server is running in the ${process.env.NODE_ENV} mode on the port ${PORT}...`))
+app.listen(PORT, console.log(`Server is running in the ${process.env.NODE_ENV} mode on the port ${PORT}...`.yellow.bold))
